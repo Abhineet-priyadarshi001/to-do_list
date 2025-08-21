@@ -1,0 +1,87 @@
+body {
+  background-color: rgba(0, 0, 0, 0.93);
+}
+.first {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+li {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 12px;
+  background-color: rgba(239, 228, 228, 0.895);
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.text {
+  flex: 1;
+}
+
+button {
+  font-size: 1rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  margin: 8px;
+  padding: 10px 12px;
+  color: azure;
+  border: none;
+  border-radius: 5px;
+  box-shadow: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#addButton {
+  background-color: green;
+}
+
+#addButton:hover {
+  background-color: rgb(72, 179, 72);
+}
+
+#RemoveTask {
+  background-color: tomato;
+}
+
+#RemoveTask:hover {
+  background-color: red;
+}
+
+#MoveUp:hover {
+  background-color: rgb(129, 201, 21);
+}
+
+#MoveUp {
+  background-color: green;
+}
+
+#MoveDown:hover {
+  background-color: blue;
+}
+
+#MoveDown {
+  background-color: rgb(21, 121, 209);
+}
+
+input[type="text"] {
+  height: 33px;
+  width: 400px;
+  font-size: 1rem;
+  border: 1.5px solid rgba(67, 63, 63, 0.453);
+  border-radius: 4px;
+}
+
+ol {
+  padding: 0px;
+}
